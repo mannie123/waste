@@ -1,0 +1,62 @@
+.moth_momn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.planwey{
+    padding: 0px 20px;
+    box-shadow: 7px 6px 9px -3px rgba(0,0,0,0.31);
+    -webkit-box-shadow: 7px 6px 9px -3px rgba(0,0,0,0.31);
+    -moz-box-shadow: 7px 6px 9px -3px rgba(0,0,0,0.31);
+text-align: left !important ;
+}
+
+.planwey h1{
+    padding: 15px 0px;
+}
+
+.plnerpp{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    padding: 15px 40px !important;
+    margin: 0px 10px;
+
+}
+.buttonex_pol{
+    padding: 5px 50px ;
+    margin-bottom: 10px;
+    color:#006666 ;
+    background-color: white;
+    border: 1px solid #006666;
+    border-radius: 5px;
+
+}
+.plp{
+    background-color: #003D3D;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin: 0px 10px;
+}
+.waste_world{
+
+    background-color:#F0F7F7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_call{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lol{
+    color: #003D3D;
+}

@@ -1,0 +1,196 @@
+.navbar_nax_ire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+    background-color: white;
+
+}
+
+ .bullet_careful_ire ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #5C5A58;
+ 
+    transition: all .4s;
+
+}
+.bullet_careful_ire ul li a:hover {
+  color:#006666 !important;
+}
+.bullet_careful_ire ul li a:hover::after,
+.bullet_careful_ire ul li a::after{
+    background-color: #006666;
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 0;
+    height: 2px;
+    width: 0px;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+.bullet_careful_ire ul li a:hover::after,
+.bullet_careful_ire ul li .active-link_ire:nth-child(1)::after 
+{
+    width: 40px; 
+}
+
+
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+ul li{
+    padding: 0px 30px;
+    list-style: none;
+    color: #006666;;
+   
+}
+
+
+.flex_endsa_ire{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+
+.bullet_careful_ire{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 29px;
+}
+
+.nav h1{
+color: #006666;;
+}
+
+.profile_picture_ire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.middle_place{
+    padding: 0px 20px;
+
+}
+
+.linky_ire{
+    text-decoration: none;
+    color: #006666;
+}
+
+.dropbtn{
+    padding: 10px 30px;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+font-weight: 400;
+font-size: 15px;
+
+}
+
+.dropbtn:hover{
+    padding: 10px 30px;
+    color: white;
+    background: #003D3D;
+    border: none;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.the_signup_area{
+    padding: 10px 30px;
+    color: white;
+    background: #003D3D;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 50%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height:60vh;
+    text-align: center;
+    white-space: nowrap;
+
+  }
+
+  .dropdown-content .link_pop{
+    color: black;
+    text-decoration: none;
+
+
+  }
+  
+  .link_pop:hover {
+
+    color: #003D3D;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+  
+  .dropdown:hover .dropbtn {
+   
+  }
+
+  .drop_pages{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+  }
+  .drop_pages h1{
+padding: 200px 150px;
+text-align: center;
+
+  }
+
+  .drop_pages_p h1{
+    padding: 200px 150px;
+    text-align: center;
+    
+    
+  }
+
+  .drop_pages_p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

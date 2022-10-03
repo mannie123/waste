@@ -1,0 +1,69 @@
+.flexim{
+    display: flex;
+    width: 90%;
+
+}
+
+
+ .bulletin ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #5C5A58;
+ 
+    transition: all .4s;
+
+}
+.bulletin ul li a:hover {
+  color:#006666 !important;
+}
+.bulletin ul li a:hover::after,
+.bulletin ul li a::after{
+    background-color: #006666;
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 0;
+    height: 2px;
+    width: 0px;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+.bulletin ul li a:hover::after,
+.bulletin ul li .active-linker:nth-child(1)::after 
+{
+    width: 40px; 
+}
+
+
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+ul li{
+    padding: 0px 30px;
+    list-style: none;
+    color: #006666;;
+   
+}
+
+
+.flexim{
+    width:90%;
+    display: flex;
+    
+}
+
+.bulletin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navs h1{
+    color: #006666;;
+    }
+    

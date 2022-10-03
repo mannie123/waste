@@ -1,0 +1,89 @@
+.navbar_nax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F0F7F7;
+
+}
+
+ .bullet_careful ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #5C5A58;
+ 
+    transition: all .4s;
+
+}
+.bullet_careful ul li a:hover {
+  color:#006666 !important;
+}
+.bullet_careful ul li a:hover::after,
+.bullet_careful ul li a::after{
+    background-color: #006666;
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 0;
+    height: 2px;
+    width: 0px;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+.bullet_careful ul li a:hover::after,
+.bullet_careful ul li .active-link:nth-child(1)::after 
+{
+    width: 40px; 
+}
+
+
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+ul li{
+    padding: 0px 30px;
+    list-style: none;
+    color: #006666;;
+   
+}
+
+
+.flex_endsa{
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+
+.bullet_careful{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1{
+color: #006666;;
+}
+
+.profile_picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_place{
+    padding: 0px 20px;
+
+}
+
+.linky{
+    text-decoration: none;
+    color: #006666;
+}

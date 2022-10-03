@@ -1,0 +1,71 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F0F7F7;
+
+}
+
+ .bullet ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #5C5A58;
+ 
+    transition: all .4s;
+
+}
+.bullet ul li a:hover {
+  color:#006666 !important;
+}
+.bullet ul li a:hover::after,
+.bullet ul li a::after{
+    background-color: #006666;
+    position: absolute;
+    content: '';
+    bottom: -0.5rem;
+    left: 0;
+    height: 2px;
+    width: 0px;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+.bullet ul li a:hover::after,
+.bullet ul li .active-link:nth-child(1)::after 
+{
+    width: 40px; 
+}
+
+
+
+ ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+ul li{
+    padding: 0px 30px;
+    list-style: none;
+    color: #006666;;
+   
+}
+
+
+.flex{
+    width:90%;
+    display: flex;
+    padding: 30px 0px;
+    
+}
+
+.bullet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav h1{
+color: #006666;
+}
