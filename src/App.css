@@ -1,38 +1,286 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html,
+body {
+  height: 100%;
+  font-family: 'Inter',
+    sans-serif;
+    font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.large-text{
+  font-size: 3rem;
+}
+.small-text{
+  font-size: 1rem;
+}
+
+.mid-text{
+  font-size: 1.5rem;
+}
+
+
+
+
+.light{
+  font-weight: 300;
+}
+.bold{
+  font-weight: 700;
+}
+
+.bottom{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ 
+}
+
+
+.admin-dashboard-left{
+  background-color: #F0F7F7;
+ 
+  height: 100vh;
+  flex-basis: 70%;
+  padding: 5rem 1rem 3rem;
+}
+
+.admin-dashboard-right{
+  flex-basis: 30%;
+  width: 30%;
+}
+
+
+.dt-header-container{
+  display: flex;
+  gap: 4rem;
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
+.dt-header-card{
+    width: 270px;
+    background-color: white;
+    padding: 2rem;
+    color: #006666;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solidred;
+}
+
+.dt-header-card > * {
+  margin-top: 1rem;
+  
+}
+
+
+
+
+.recylcing-history-con{
+  margin:  0 auto;
+  margin-top: 5rem;
+  max-width: 65rem;
+  
+}
+
+.div{
+  overflow-x: auto;
+}
+.recylcing-history-con .rh-table {
+  width: 100%;
+}
+
+
+.recylcing-history-con .rh-table th{
+  padding: 1rem;
+  text-align: left;
+  width: max-content;
+  color: #003D3D;
+}
+
+.recylcing-history-con .rh-table td {
+  padding: 1rem;
+  text-align: left;
+  width: 25%;
+  color: #5C5A58;
+}
+
+.recylcing-history-con .rh-table tr :first-child{
+  padding-left: 0;
+}
+
+.primary-btn{
+  width: 153px;
+  height: 57px;
+  background-color: #003D3D;
+  border: none;
+  text-transform: uppercase;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.secondary-btn{
+  background-color: white;
+  color: #5C5A58;
+  width: 153px;
+  height: 57px;
+  border: none;
+  text-transform: uppercase;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recylcing-history-con tr td:nth-child(3) {
+  font-weight: 900;
+}
+
+
+.products_in_stock-con {
+  margin: 0 auto;
+  margin-top: 5rem;
+  max-width: 80%;
+
+}
+
+.div {
+  overflow-x: auto;
+}
+
+.products_in_stock-con .rh-table {
+  width: 100%;
+}
+
+/* .rh-table tr{
+  text-align: left;
+} */
+
+.products_in_stock-con .pis-table th {
+  padding: 1rem;
+  text-align: center;
+  width: max-content;
+  color: #5C5A58;
+  background: #BFD9D9;
+  font-weight: 200;
+ 
+}
+
+.products_in_stock-con .pis-table td {
+  padding: 1rem;
+  text-align: center;
+  width: 16.6%;
+  color: #5C5A58;
+}
+
+.products_in_stock-con .pis-table tr :first-child {
+  padding: 2.5rem;
+}
+
+.primary-btn {
+  width: 103px;
+  height: 37px;
+  background-color: #003D3D;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.secondary-btn {
+  background-color: white;
+  color: #5C5A58;
+  width: 103px;
+    height: 37px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+}
+
+
+
+.admin-store{
+  background-color: #F0F7F7;
+  min-height: 100vh;
+}
+
+
+
+.store-nav{
+  background-color: #408C8C;
+}
+.store-nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 42rem;
+  max-width: 80%;
+  margin: 0 auto;
+  color: white;
+  padding: 3rem 0;
+  font-weight: 900;
+}
+
+.product-image{
+  width: 60%;
+}
+
+.red-btn{
+  width: 103px;
+    height: 37px;
+    background-color: #BD1515;;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+
+.green-btn{
+  width: 103px;
+    height: 37px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    background: #26AD6E;
+    border-radius: 5px;
+}
+
+
+
+.upload-products-con{
+  width: 100%;
+  height: 90vh;
+  
+}
+
+.up-form input{
+  width: 693px;
+  height: 54px;
+  border-radius: 5px;
+  border: none;
+  background: #FFFFFF;
+  border: 1px solid #92918F;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+
+.upload-btn{
+  margin-top: 1rem;
+  background: #003D3D !important; 
+  color: white;
+}
+
+.admin-dashboard-con{
+  display: flex;
+}
+
+.dt-header-card:nth-child(2){
+  background-color: #003D3D;
+  color: white !important;
 }
